@@ -1,7 +1,6 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome to this Ania Kubow inspired memory game.
-* [Learn JavaScript by Building 7 Games - Full Course](https://www.youtube.com/watch?v=ec8vSKJuZTk)
+Welcome to this Ania Kubów inspired [memory game](https://github.com/kubowania/memory-game)
 
 ## Gitpod Reminders
 
@@ -21,3 +20,8 @@ Another blue button should appear to click: _Open Browser_.
 
 In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
+## Credits
+
+Learn JavaScript by Building 7 Games - Full Course by [Ania Kubów](https://www.youtube.com/watch?v=ec8vSKJuZTk)
+
+Sunflowers Field, Donetsk, Ukraine by [Aleksandr Eremin](https://unsplash.com/@notevilbird)
