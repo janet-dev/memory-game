@@ -92,11 +92,11 @@ function checkMatch() {
     if (optionOneId == optionTwoId) {
         cards[optionOneId].setAttribute('src', 'images/blank.png');
         cards[optionTwoId].setAttribute('src', 'images/blank.png');
-        alert('You clicked the same image!');
+        alert('You clicked the same image! Try again.');
     }
 
     if (cardsChosen[0] == cardsChosen[1]) {
-        alert('You found a match!');
+        alert('You found the matching card!');
         //set cards to white
         cards[optionOneId].setAttribute('src', 'images/white.png');
         cards[optionTwoId].setAttribute('src', 'images/white.png');
@@ -109,7 +109,7 @@ function checkMatch() {
         // turn the cards back over again
         cards[optionOneId].setAttribute('src', 'images/blank.png');
         cards[optionTwoId].setAttribute('src', 'images/blank.png');
-        alert('Sorry, try again!');
+        alert('Sorry no match, try again!');
     }
 
     resultDisplay.textContent = cardsWon.length;
